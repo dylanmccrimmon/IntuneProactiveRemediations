@@ -1,0 +1,17 @@
+name: Proactive Remediations Repository Tests
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-proactive-remediations-repository:
+    name: Proactive Remediations Repository Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Perform Proactive Remediations Repository Testing
+        shell: pwsh
+        run: ./Tools/Test-ProactiveRemediationRepository.ps1
