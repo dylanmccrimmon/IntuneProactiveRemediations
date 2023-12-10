@@ -1,0 +1,8 @@
+{
+    "displayName": "Digtial License",
+    "description": "If a digital license is present, it will be used to activate Windows.",
+    "publisher": "Dylan McCrimmon",
+    "runAsAccount": "system",
+    "runAs32Bit": false,
+    "enforceSignatureCheck": false
+}
