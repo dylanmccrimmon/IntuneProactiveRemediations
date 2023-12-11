@@ -97,8 +97,8 @@ $ProactiveRemediationJson = [PSCustomObject]@{
     'displayName' = $Name
     'description' = $Description
     'publisher' = $Publisher
-    'runAsaccount' = $RunAsAccount
-    'runAsis32Bit' = $RunAs32Bit
+    'runAsAccount' = $RunAsAccount
+    'runAs32Bit' = $RunAs32Bit
     'enforceSignatureCheck' = $EnforceSignatureCheck
 }
 
