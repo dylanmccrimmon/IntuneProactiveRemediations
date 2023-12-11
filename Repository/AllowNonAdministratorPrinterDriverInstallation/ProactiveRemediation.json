@@ -1,0 +1,8 @@
+{
+  "displayName": "Allow Non Administrator Printer Driver Installation",
+  "description": "Allows non-administrator users to install printer drivers on devices. This setting is disabled by default.",
+  "publisher": "Dylan McCrimmon",
+  "runAsaccount": "system",
+  "runAs32Bit": false,
+  "enforceSignatureCheck": false
+}
