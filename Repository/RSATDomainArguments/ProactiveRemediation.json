@@ -3,6 +3,6 @@
   "description": "Adds domain arguments to RSAT shortcuts based on the primary DNS suffix.",
   "publisher": "Dylan McCrimmon",
   "runAsAccount": "system",
-  "runAs32Bit": true,
+  "runAs32Bit": false,
   "enforceSignatureCheck": true
 }
