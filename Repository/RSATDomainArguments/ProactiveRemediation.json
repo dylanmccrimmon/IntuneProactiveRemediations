@@ -1,0 +1,8 @@
+{
+  "displayName": "RSAT Domain Arguments",
+  "description": "Adds domain arguments to RSAT shortcuts based on the primary DNS suffix.",
+  "publisher": "Dylan McCrimmon",
+  "runAsAccount": "system",
+  "runAs32Bit": true,
+  "enforceSignatureCheck": true
+}
